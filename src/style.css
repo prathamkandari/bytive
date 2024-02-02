@@ -1,0 +1,56 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    /* Adjust the padding as needed */
+}
+
+.home-logo a {
+    text-decoration: none;
+    color: black;
+    /* Adjust the color as needed */
+}
+
+.header-buttons button {
+    margin-left: 10px;
+    /* Adjust the margin as needed */
+}
+
+.next-row {
+    display: flex;
+    align-items: center;
+}
+
+.dropdown,
+.keyword-search {
+    margin-right: 20px;
+}
+
+.user-section {
+    display: flex;
+    justify-content: space-between;
+    /* Align children to the start and end of the container */
+    align-items: center;
+    /* Center items vertically within the container */
+    border: 1px solid;
+    padding: 10px;
+    /* Adjust padding as needed */
+}
+
+.user-details {
+    display: flex;
+    align-items: center;
+    /* Center items vertically within the container */
+}
+
+.user-info {
+    margin-left: 10px;
+    /* Adjust margin as needed */
+}
+
+.user-buttons {
+    display: flex;
+    gap: 10px;
+    /* Adjust gap as needed */
+}
